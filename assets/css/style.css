@@ -1,0 +1,116 @@
+
+
+
+/* **************************************************************** */
+/* **************************************************************** */
+/* GENRAL CSS PROPERTIES */
+
+
+
+/* color presets */
+:root {
+	/* --gen-blue:#001a33; */
+	--gen-blue:rgb(66, 72, 87);
+	--gen-dark:rgb(66, 72, 87);
+	--gen-white:#f9fdff;
+	--light-blue:rgb(190, 204, 218);
+	--light-dark:rgb(190, 204, 218);
+
+	--fg-blue:#00a3cc;
+
+	--gen-width:1280px;
+}
+
+/* Body */
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+div.ctn{
+	max-width: var(--gen-width);
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:var(--gen-dark);
+	border-top: 1px solid var(--gen-dark);
+}
+
+
+/* content wrapper white*/
+section.wrapper-bg-light{
+	width:100%;
+	height:auto;
+	background-color:var(--gen-white);
+}
+
+section.wrapper-bg-white{
+	width:100%;
+	height:auto;
+	background-color:white;
+}
+
+div.wrapper-content{
+	max-width:1280px;
+	margin:0 auto;
+	height:auto;
+	margin-bottom: 50px;
+}
+
+/* *********************************** */
+/* *********************************** */
+
+/* **************************************************************** */
+
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+
+
+
+/* our philosophy */
+section.wrapper-philosophy{
+	width:100%;
+	height: auto;
+	min-height:260px;
+	background-image:url(../img/bg/panel-bg-1.jpg);
+	background-position:center left;
+    background-repeat: no repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: -10px;
+}
+
+div.phil-title{
+	padding-top: 10px;
+	text-align: center;
+}
+
+div.phil-body{
+	text-align: center;
+	font-size: 18px;
+	margin: 0 150px;
+	padding-bottom: 30px;
+}
+
+@media(max-width: 1080px)
+{
+	div.phil-body{
+		text-align: center;
+		font-size: 16px;
+		margin: 10px 50px;
+	}
+}
+
+
+
+

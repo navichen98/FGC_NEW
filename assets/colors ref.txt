@@ -1,0 +1,4 @@
+color:
+	1. topbar bg blue:#000033
+	2. topbar - toggle blue:#4d79ff
+	3. topbar white:#f9fdff
