@@ -63,16 +63,18 @@
 		}
 	}
 	
-	div.funds{
-		margin:0 auto;
-		min-height:380px;
-		height:auto;
+	#funds .mix{
+		display: none;
+	}
+	
+	div.fund-box{
+		height:400px;
 		padding-bottom:20px;
 	}
 	
 	div.fund-box-each{
-		min-height: 250px;
 		background-color: white;
+		padding:10px 10px;
 	}
 	
 	
@@ -87,6 +89,7 @@
 		margin: 0px 0;
 		padding-top:10px;
 	}
+	
 
 	</style>
 
@@ -103,42 +106,18 @@
 			<!-- funds category -->
 			<div class="row funds-category">
 				<ul class='funds-filter'>
-					<li class='filter'>ALL FUNDS</li>
-					<li class='filter'>INCOME FUNDS</li>
-					<li class='filter'>GROWTH FUNDS</li>
-					<li class='filter'>PROPERTY FUNDS</li>
-					<li class='filter'>ASIAN EQUITY</li>
+					<li class='filter' data-filter="all">ALL FUNDS</li>
+					<li class='filter' data-filter=".income">INCOME FUNDS</li>
+					<li class='filter' data-filter=".growth">GROWTH FUNDS</li>
+					<li class='filter' data-filter=".property">PROPERTY FUNDS</li>
+					<li class='filter' data-filter=".asian">ASIAN EQUITY</li>
 				</ul>
 			</div><!--- END ROW -->
 			
 			<!-- funds details -->
-			<div class='funds row'>
-				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown'>
-					<div class='fund-box-each'>
-						<h4 class='fund-title'><strong>Secured Income Fund</strong></h4>
-						<span class='fund-description'>Minimum investment of $50,000, with a minimum investment term of 12 months</span></br>
-						<span class='fund-description'>First mortgage security, against Australian real property assets</span></br>
-						<span class='fund-description'>Highly experienced credit team, ensuring all loans adhere to strict credit criteria</span></br>
-						<span class='fund-description'>Loans amounts will be limited to no more than 75% value, as determined by independent valuation</span></br>
-						</br>
-					</div>
-					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
-				</div><!-- end column -->
+			<div class='funds row' id='funds'>
 				
-				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown'>
-					<div class='fund-box-each'>
-						<h4 class='fund-title'><strong>Japanese Income Fund</strong></h4>
-						<span class='fund-description'>Targets 8% p.a income return, paid monthly basis, plus potential for capital gain.</span></br>
-						<span class='fund-description'>Minimum investment of $100,000, with a minimum investment term of 12 months.</span></br>
-						<span class='fund-description'>The fund will invest directly in distressed property and Japanese Real Estate Investment Trusts.</span></br>
-						<span class='fund-description'>Income streams derived from rental yields along with long-term capital growth. </span></br>
-						<span class='fund-description'>Reliable and professional partners both involved in Japan and Australia.</span></br>
-						</br>
-					</div>
-					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
-				</div><!-- end column -->
-				
-				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown'>
+				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown mix all income'>
 					<div class='fund-box-each'>
 						<h4 class='fund-title'><strong>Australian Food and Farming Loan Fund</strong></h4>
 						<span class='fund-description'>Fixed return of 8% p.a. paid semi-annually and guaranteed by AFF.</span></br>
@@ -151,8 +130,34 @@
 					</div>
 					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
 				</div><!-- end column -->
+			
 				
-				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown'>
+				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown mix all income'>
+					<div class='fund-box-each'>
+						<h4 class='fund-title'><strong>Secured Income Fund</strong></h4>
+						<span class='fund-description'>Minimum investment of $50,000, with a minimum investment term of 12 months</span></br>
+						<span class='fund-description'>First mortgage security, against Australian real property assets</span></br>
+						<span class='fund-description'>Highly experienced credit team, ensuring all loans adhere to strict credit criteria</span></br>
+						<span class='fund-description'>Loans amounts will be limited to no more than 75% value, as determined by independent valuation</span></br>
+						</br>
+					</div>
+					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
+				</div><!-- end column -->
+				
+				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown mix all income property'>
+					<div class='fund-box-each'>
+						<h4 class='fund-title'><strong>Japanese Income Fund</strong></h4>
+						<span class='fund-description'>Targets 8% p.a income return, paid monthly basis, plus potential for capital gain.</span></br>
+						<span class='fund-description'>Minimum investment of $100,000, with a minimum investment term of 12 months.</span></br>
+						<span class='fund-description'>The fund will invest directly in distressed property and Japanese Real Estate Investment Trusts.</span></br>
+						<span class='fund-description'>Income streams derived from rental yields along with long-term capital growth. </span></br>
+						<span class='fund-description'>Reliable and professional partners both involved in Japan and Australia.</span></br>
+						</br>
+					</div>
+					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
+				</div><!-- end column -->
+				
+				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown mix all growth property'>
 					<div class='fund-box-each'>
 						<h4 class='fund-title'><strong>Low Density Real Estate Development Fund</strong></h4>
 						<span class='fund-description'>Aims to provide a return that is reflective of exposure to the Australian Residential property development sector.</span></br>
@@ -166,9 +171,9 @@
 					<!-- <a class='btn btn-default overview-btn' href='#'>LEARN MORE</a> -->
 				</div><!-- end column -->
 				
-				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown'>
+				<div class='col-md-4 col-sm-6 fund-box wow fadeInDown mix all growth asian'>
 					<div class='fund-box-each'>
-						<h4 class='fund-title'><strong>First Guardian Pam Asian Fund</strong></h4>
+						<h4 class='fund-title'><strong>First Guardian Pan Asian Fund</strong></h4>
 						<span class='fund-description'>Absolute Return focused, actively managed to generate positive returns in all market conditions.</span></br>
 						<span class='fund-description'>Aims to generate attractive capital gains from country, sector and stock selection.</span></br>
 						<span class='fund-description'>Minimum investment $100,000 with monthly redemptions permitted</span></br>
@@ -187,7 +192,10 @@
 		include_once 'inc/_footer.inc';
 	?>
 	<script>
-		//alert(121);
+		//alert(121)
+		$(document).ready(function(){
+			$('#funds').mixItUp();
+		});
 	</script>
 
 

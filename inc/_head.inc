@@ -18,7 +18,8 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
-
+<!-- venobox -->
+<link rel="stylesheet" href="assets/venobox/css/venobox.css" />
 
 <!-- JQuery  and JQ UI-->
 <script src="assets/js/jquery-3.1.1.js"></script>
@@ -26,10 +27,16 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
+<!-- jquery mixitup js -->
+<script src="assets/js/jquery.mixitup.js"></script>
+
+<!-- venobox js -->
+<script src="assets/venobox/js/venobox.min.js"></script>
+
 <!-- WOW - Reveal Animations When You Scroll -->
 <script src="assets/js/wow.min.js"></script>
-<script src="assets/js/scripts.js"></script>
 
+<script src="assets/js/scripts.js"></script>
 
 <!-- Google icon -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">

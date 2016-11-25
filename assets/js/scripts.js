@@ -73,13 +73,13 @@ Version      : 1.1
 		
 		
 		/*START MIXITUP JS*/
-			$('.work_all_item').mixItUp();
+			// $('.work_all_item').mixItUp();
 			
-			// jQuery Lightbox
-			$('.lightbox').venobox({
-				numeratio: true,
-				infinigall: true
-			});	
+			// // jQuery Lightbox
+			// $('.lightbox').venobox({
+				// numeratio: true,
+				// infinigall: true
+			// });	
 		/*END MIXITUP JS*/
 		
 		

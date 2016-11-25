@@ -51,7 +51,7 @@ div.service-intro{
 		<div class='service-intro'>
 			<p>First Guardian Capital owns and operates an innovative, specialist superannuation (pension) fund, 
 			First Guardian Super. The Fund is specifically designed and managed to meet the needs of Australia’s socially conscious community with an 
-			appetite for responsible investing. The Fund enables investors to grow their superannuation whilst contributing to positive, sustainable change, 
+			appetite for responsible investing. The Fund enables investors to grow their superannuation whilst contributing to positive, sustainable change,			
 			across society and the environment.
 			</p>
 		</div>
@@ -61,11 +61,12 @@ div.service-intro{
 	<div class='service-panel-row'>
 		<div class='service-name'>
 			<i class="fa fa-edit fa-2x fa-color-blue" style='margin-bottom:15px;'></i>
-			<p>Corporate Advisory</p>
+			<p>Corporate Finance</p>
 		</div>
 		<div class='service-intro'>
-			<p>Our corporate advisory team performs an end-to-end role managing all aspects of our clients' corporate and debt structuring requirements. Our capabilities include analysis of operations and trading, risk
-			assessment and valuation, identification of appropriate funding mechanisms and venues, debt
+			<p>Our corporate advisory team performs an end-to-end role managing all aspects of our clients' corporate and debt structuring requirements.
+			Our capabilities include analysis of operations and trading, risk
+			assessment, identification of appropriate funding mechanisms, debt
 			structuring and capital raising, negotiation of financing terms, management of financial closure, and post-drawdown project management.
 			</p>
 		</div>
@@ -75,13 +76,19 @@ div.service-intro{
 	<div class='service-panel-row'>
 		<div class='service-name'>
 			<i class="fa fa-pie-chart fa-2x fa-color-blue" style='margin-bottom:15px;'></i>
-			<p>INVESTMENT STRATEGY</p>
+			<p>INVESTMENT BANKING</p>
 		</div>
 		<div class='service-intro'>
-			<p>Our investment advice centres on your needs. We want to understand your personal circumstances and goals.
-			We believe it is essential for our relationship to be based on trust and to be focused on finding investment solutions that are tailored to your personal circumstances and financial position. Our
-			specialist team provides a comprehensive range of investment advisory services, 
-			whilst benefiting from our expertise in asset management and investment banking.
+			<p>FGC can act as Corporate Advisor to manage the entire process of listing and to facilitate the preparation 
+			of all relevant documents. Our focus is to formulate a persuasive investment proposition that will be attractive 
+			to investors both locally and globally. We work with clients to structure each offer such that it adheres to all 
+			listing requirements and accurately presents the opportunity to investors. FGC will arrange for independent legal 
+			review and financial audit, to ensure all the listing and regulatory requirements of the stock exchange and ASIC are fully met.
+			</p>
+			<p>
+			FGC will manage the entire listing process; organise the resources necessary for successfully preparing marketing 
+			and finan- cial information, and will provide ongoing services after listing. FGC will fully review and advise on 
+			the business strategy and marketing plans, and develop the documents necessary for the prospectus to reflect the investment opportunity.
 			</p>
 		</div>
 	</div>
@@ -105,7 +112,7 @@ div.service-intro{
 	<div class='service-panel-row'>
 		<div class='service-name'>
 			<i class="fa fa-cog fa-2x fa-color-blue" style='margin-bottom:15px;'></i>
-			<p>PLAFORM SOLUTIONS</p>
+			<p>PLATFORM SOLUTIONS</p>
 		</div>
 		<div class='service-intro'>
 			<p>Our corporate advisory team performs an end-to-end role managing all aspects of our clients' corporate and debt structuring requirements. Our capabilities include analysis of operations and trading, risk

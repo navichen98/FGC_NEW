@@ -58,7 +58,7 @@ img.img-responsive{
 				</p>
 
 				<p class='profile-subs col-md-12 col-sm-12'>
-					<strong>CEO</strong>
+					<strong>CEO, Managing Director</strong>
 				</p>
 
 				<p class='profile-subs col-md-12 col-sm-12'>
@@ -70,9 +70,9 @@ img.img-responsive{
 					David is a co-founder of First Guardian Capital. He
 					brings over 15 years of Investment Management
 					and commercial experience to the firm. He is jointly
-					responsible for the management of First Guardian’s in-
-					vestment portfolios, and is responsible for implement-
-					ing the Firm’s business strategy across Australia and
+					responsible for the management of First Guardian’s investment portfolios, 
+					and is responsible for implementing the Firm’s 
+					business strategy across Australia and
 					Asia. As a fluent speaker of Mandarin Chinese and
 					Indonesian, David has established strong business
 					links across the Asian region, covering corporate
@@ -85,8 +85,8 @@ img.img-responsive{
 					extensive experience within top tier global
 					investment managers. David managed equities at
 					UBS Global Asset Management, where he worked for
-					7 years, holding roles focused on research and in-
-					vestment management. David also spent 5 years at
+					7 years, holding roles focused on research and investment
+					management. David also spent 5 years at
 					Goldman Sachs JBWere Asset Management, working
 					primarily as a Senior Investment Analyst.
 				</p>
@@ -104,7 +104,7 @@ img.img-responsive{
 				</p>
 
 				<p class='profile-subs col-md-12 col-sm-12'>
-					<strong>Chief Investment Officer</strong>
+					<strong>Chairman, Chief Investment Officer</strong>
 				</p>
 
 				<p class='profile-subs col-md-12 col-sm-12'>
@@ -125,8 +125,8 @@ img.img-responsive{
 				<p class='team' col-md-12 col-sm-12'>
 					Simon has developed the First Guardian Capital’s
 					Multi-Strategy Investment Matrix model which we
-					apply across all our investment strategies. Simon’s ex-
-					tensive experience as a portfolio manager was gained
+					apply across all our investment strategies. Simon’s ex-tensive 
+					experience as a portfolio manager was gained
 					initially at Trust Company and Colonial Mutual. While
 					at Colonial, Simon managed global equities portfolios
 					for institutional clients. Simon was also an Investment

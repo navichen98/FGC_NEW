@@ -184,7 +184,7 @@
 							<li><a href="our-funds.php">OUR FUNDS</a></li>
 						</ul>
 					</li>
-					<li><a class='top-menu-item' href="approach.php">OUR APPROACH</a></li> 
+					<li><a class='top-menu-item' href="products.php">PRODUCTS</a></li> 
 					<li><a class='top-menu-item' href="contact.php">CONTACT</a></li> 
 					<li><a class='top-menu-item' href="#">LOGIN</a></li>
 				</ul>

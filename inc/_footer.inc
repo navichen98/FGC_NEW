@@ -4,7 +4,7 @@
 <style>
 footer{
 	width:100%;
-	background-color:var(--gen-dark);
+	
 }
 
 .footer-top{
@@ -198,3 +198,5 @@ a.news{
 		</h4>
 	</div>
 </footer>
+
+<script src="assets/js/scripts.js"></script>

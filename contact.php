@@ -77,31 +77,31 @@
 					To have our team contact you,
 					simply fill out the form below.
 				</h3>
-				<form>
+				<form method='post' action='email.php'>
 					<div class="col-md-12 contact-form-input approach" >
 						<label>Firstname</label>
-						<input type="text" class="form-control" placeholder="firstname" required>
+						<input type="text" name='first_name' class="form-control" placeholder="firstname" required>
 					</div>
 
 					<div class="col-md-12 contact-form-input approach">
 						<label>Lastname</label>
-						<input type="text" class="form-control" placeholder="lastname" required>
+						<input type="text" name='last_name' class="form-control" placeholder="lastname" required>
 					</div>
 
 					<div class="col-md-12 contact-form-input approach">
 						<label>Email address</label>
-						<input type="email" class="form-control" placeholder="email" required>
+						<input type="email" name='email' class="form-control" placeholder="email" required>
 					</div>
 
 					<div class="col-md-12 contact-form-input approach">
 						<label>Message</label>
-						<textarea class="form-control contact-message" rows='7' cols='30'>
+						<textarea class="form-control contact-message" name='msg' rows='7' cols='30'>
 							
 						</textarea> 
 					</div>
 
 					<div class="col-md-6 contact-form-input approach">
-						<button class="btn btn-default" id='sub_us'>SEND</button>
+						<button class="btn btn-default" name='send_'  id='sub_us'>SEND</button>
 					</div>
 				</form>
 			</div>
