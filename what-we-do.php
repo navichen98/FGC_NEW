@@ -29,6 +29,16 @@
 		margin:0 auto;
 		
 	}
+	
+	div.co-title{
+	padding-top: 10px;
+	}
+
+
+	.corp-overview{
+		font-size: 18px;
+
+	}
 		
 	</style>
 
@@ -44,7 +54,7 @@
 	<section class="wrapper-bg-light">
 		<div class="row wrapper-content">
 			<div class = 'col-md-8 co-title'>
-				<h2>WHAT WE DO</h2></br>
+				<h2>WHAT WE <strong>DO</strong></h2></br>
 				
 				<p class='corp-overview'>First Guardian works closely with investors and businesses alike, that are
 				looking to achieve sustainable growth in the Asia Pacific region in order to

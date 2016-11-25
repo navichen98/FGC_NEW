@@ -66,10 +66,10 @@ a.overview-btn:hover{
 
 <!-- content wrapper white bg -->
 <!-- What We Do -->
-<section class="wrapper-bg-white">
+<section class="wrapper-bg-white" style='padding-top:35px;'>
 	<div class="row wrapper-content">
 		<div class="content-box">
-			<h2 style='margin:30px auto;'><strong> WHAT WE DO</strong></h2>
+			<!-- <h2 style='margin:30px auto;'><strong> WHAT WE DO</strong></h2> -->
 
 			<div class='col-md-4 col-sm-6 info-box wow fadeInDown'>
 				<div class='info-box-each'>
